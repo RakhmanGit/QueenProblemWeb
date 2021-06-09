@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Values</title>
+</head>
+<body>
+  <form method="post" action="@{/api/solution}">
+    <label for="column">Column</label>
+    <input name="column" type="text" id="column">
+
+    <br>
+
+    <label for="row">Row   </label>
+    <input name="row" type="text" id="row">
+
+    <br>
+
+    <input type="submit" value="Insert Queen"/>
+  </form>
+</body>
+</html>
